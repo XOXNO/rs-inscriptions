@@ -1,0 +1,24 @@
+[package]
+name = "inscriptions"
+version = "0.0.0"
+authors = ["you"]
+edition = "2021"
+publish = false
+
+[lib]
+path = "src/inscriptions.rs"
+
+[dependencies.multiversx-sc]
+version = "0.45.2"
+
+[dev-dependencies]
+num-bigint = "0.4.2"
+
+[dev-dependencies.multiversx-sc-scenario]
+version = "0.45.2"
+
+[workspace]
+members = [
+    ".",
+    "meta",
+]
