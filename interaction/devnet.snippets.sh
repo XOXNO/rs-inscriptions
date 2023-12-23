@@ -1,4 +1,4 @@
-ADDRESS=erd1qqqqqqqqqqqqqpgqa4smstepaxfq0s5fxrwg45l64cz5mwl4ah0svfsusq #Template SC
+ADDRESS=erd1qqqqqqqqqqqqqpgq7ths5vnfht5muptkxw887jnymvuempn0ah0s7vtrmt
 
 DEPLOY_TRANSACTION=$(mxpy data load --key=deployTransaction-devnet)
 PROXY=https://devnet-api.multiversx.com
