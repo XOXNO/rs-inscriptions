@@ -1,4 +1,4 @@
-ADDRESS=erd1qqqqqqqqqqqqqpgq7ths5vnfht5muptkxw887jnymvuempn0ah0s7vtrmt
+ADDRESS=erd1qqqqqqqqqqqqqpgqm3w0cr4qnnp5uqqj9s377fde93l82sjuah0suxn6c3
 
 PROXY=https://api.multiversx.com
 PROJECT="${PWD}/output/inscriptions.wasm"
