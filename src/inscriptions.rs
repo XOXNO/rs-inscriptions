@@ -21,13 +21,13 @@ pub trait Inscriptions {
             royalties <= &BigUint::from(ROYALTIES_MAX),
             "Royalties must be between 0 and 10000"
         );
-        let hash_bytes = self.crypto().sha256(payload);
+        let hash_bytes = self.crypto().sha256(payload); // max payload size around 320kb
         let hash_hex = hash_bytes.as_managed_buffer();
 
         let tx_hash_bytes = self.blockchain().get_tx_hash();
         let tx_hash_hex = tx_hash_bytes.as_managed_buffer();
         let map_used_hashes = self.used_hashes(hash_hex);
-        require!(!map_used_hashes.is_empty(),
+        require!(map_used_hashes.is_empty(),
             "Hash already used in a previous inscription"
         );
         map_used_hashes.set(true);
