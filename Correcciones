@@ -1,0 +1,29 @@
+Correcciones y última implementación de la red principal
+El último
+@mihaieremia mihaieremia lanzó esto 3 weeks ago
+ v1.0.1
+ f490445
+Construido usando la imagen de Docker: multiversx/sdk-rust-contract-builder:v5.3.0 .
+
+Códigos hashes (blake2b):
+inscripciones.wasm :684a2b0477ca78f2c5c35eb0e55d6cbeae79d07afcbcd0940f5a2b73edd40a87
+
+Activos 6
+artefactos.json
+912 bytes
+3 weeks ago
+inscripciones-0.0.0.source.json
+74,5 KB
+3 weeks ago
+inscripciones.abi.json
+3,43 KB
+3 weeks ago
+inscripciones.wasm
+7,53KB
+3 weeks ago
+Código fuente
+(cremallera)
+3 weeks ago
+Código fuente
+(tar.gz)
+3 we
