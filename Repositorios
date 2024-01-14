@@ -1,0 +1,50 @@
+Documentación de GitHub
+Repositorios/Crear y administrar repositorios/Creación desde una plantilla
+Crear un repositorio desde una plantilla
+En este artículo
+Acerca de las plantillas de repositorio
+Crear un repositorio desde una plantilla
+Puedes generar un nuevo repositorio con la misma estructura de directorio y los mismos archivos que un repositorio existente.
+
+Quién puede usar esta característica
+Anyone with read access to a template repository can create a repository from that template.
+
+Acerca de las plantillas de repositorio
+Puede crear una plantilla a partir de un repositorio existente. Cualquier persona con acceso al repositorio de plantillas puede crear un nuevo repositorio basado en la plantilla con la misma estructura de directorios, ramas y archivos. Para obtener más información sobre la creación de una plantilla de repositorio, vea "Crear un repositorio desde una plantilla".
+
+Sugerencia: También puede crear un repositorio a partir de una plantilla con GitHub CLI. Para obtener más información, consulte "gh repo create" en la documentación de GitHub CLI.
+
+Puedes elegir incluir la estructura de directorio y archivos únicamente desde la rama predeterminada del repositorio plantilla o incluir todas las ramas. Las ramas que se creen a partir de una plantilla tienen historiales sin relación, lo cual significa que no puedes crear solicitudes de cambio ni hacer fusiones entre las ramas.
+
+Crear un repositorio a partir de una plantilla es similar a bifurcar un repositorio, pero existen algunas diferencias importantes:
+
+Una nueva bifurcación incluye todo el historial de confirmaciones del repositorio padre, mientras que un repositorio creado a partir de una plantilla comienza con una única confirmación.
+Las confirmaciones en una bifurcación no aparecen en tu gráfico de contribuciones, mientras que las confirmaciones en un repositorio creado a partir de una plantilla sí se muestran en tu gráfico de contribuciones.
+Una bifurcación puede ser una forma temporaria de contribuir código a un proyecto existente, mientras que crear un repositorio a partir de una plantilla permite iniciar rápidamente un proyecto nuevo.
+Para más información sobre las bifurcaciones, consulta "Acerca de las bifurcaciones".
+
+Crear un repositorio desde una plantilla
+En GitHub.com, navega a la página principal del repositorio.
+
+Encima de la lista de archivos, haga clic en Use this template (Usar esta plantilla).
+
+Selecciona Crear un repositorio nuevo.
+
+Captura de pantalla del botón "Usar esta plantilla" y el menú desplegable expandido para mostrar la opción "Abrir en un codespace".
+
+Nota: Como alternativa, puedes abrir la plantilla en un codespace y publicar el trabajo en un nuevo repositorio más adelante. Para obtener más información, vea «Creación de un codespace a partir de una plantilla».
+
+Usa el menú desplegable Propietario para seleccionar la cuenta que quieres que sea propietaria del repositorio.
+Captura de pantalla del menú del propietario de un repositorio de GitHub nuevo. El menú muestra dos opciones, octocat y github.
+
+Teclea el nombre de tu repositorio, y una descripción opcional.
+
+Captura de pantalla del primer paso para crear un repositorio de GitHub. El campo "Repository name" contiene el texto "hello-world" y aparece en naranja oscuro.
+
+Elige la visibilidad del repositorio. Para obtener más información, vea «Acerca de los repositorios».
+
+De manera opcional, para incluir la estructura de directorios y los archivos de todas las ramas en la plantilla, y no únicamente aquellos de la rama predeterminada, seleccione Include all branches (Incluir todas las ramas).
+
+Opcionalmente, si la cuenta personal o la organización en la que va a crear usa cualquier GitHub Apps de GitHub Marketplace, seleccione las aplicaciones que le gustaría usar en el repositorio.
+
+Haga clic en Create repository from template (Crear repositorio a partir de plantilla).
